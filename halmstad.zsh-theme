@@ -2,8 +2,6 @@
 # General
 # --------------------
 local return_status="%{$fg[red]%}%(?..⏎)%{$reset_color%} "
-
-local return_code='%{$fg[red]%}%(?..↵)%{$reset_color%}'
 local current_dir='%{$terminfo[bold]$fg[blue]%}%~%{$reset_color%}'
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 local current_time="%{$fg_bold[green]%}%*%{$reset_color%}"
